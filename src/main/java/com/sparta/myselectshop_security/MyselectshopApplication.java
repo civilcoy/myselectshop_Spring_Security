@@ -1,4 +1,4 @@
-package com.sparta.myselectshop;
+package com.sparta.myselectshop_security;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

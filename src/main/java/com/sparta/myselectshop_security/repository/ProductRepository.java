@@ -1,6 +1,6 @@
-package com.sparta.myselectshop.repository;
+package com.sparta.myselectshop_security.repository;
 
-import com.sparta.myselectshop.entity.Product;
+import com.sparta.myselectshop_security.entity.Product;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;

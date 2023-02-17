@@ -1,6 +1,6 @@
-package com.sparta.myselectshop.repository;
+package com.sparta.myselectshop_security.repository;
 
-import com.sparta.myselectshop.entity.User;
+import com.sparta.myselectshop_security.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

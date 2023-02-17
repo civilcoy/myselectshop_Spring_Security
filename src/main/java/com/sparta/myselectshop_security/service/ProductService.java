@@ -1,15 +1,15 @@
-package com.sparta.myselectshop.service;
+package com.sparta.myselectshop_security.service;
 
-import com.sparta.myselectshop.dto.ProductMypriceRequestDto;
-import com.sparta.myselectshop.dto.ProductRequestDto;
-import com.sparta.myselectshop.dto.ProductResponseDto;
-import com.sparta.myselectshop.entity.Product;
-import com.sparta.myselectshop.entity.User;
-import com.sparta.myselectshop.entity.UserRoleEnum;
-import com.sparta.myselectshop.jwt.JwtUtil;
-import com.sparta.myselectshop.naver.dto.ItemDto;
-import com.sparta.myselectshop.repository.ProductRepository;
-import com.sparta.myselectshop.repository.UserRepository;
+import com.sparta.myselectshop_security.dto.ProductMypriceRequestDto;
+import com.sparta.myselectshop_security.dto.ProductRequestDto;
+import com.sparta.myselectshop_security.dto.ProductResponseDto;
+import com.sparta.myselectshop_security.entity.Product;
+import com.sparta.myselectshop_security.entity.User;
+import com.sparta.myselectshop_security.entity.UserRoleEnum;
+import com.sparta.myselectshop_security.jwt.JwtUtil;
+import com.sparta.myselectshop_security.naver.dto.ItemDto;
+import com.sparta.myselectshop_security.repository.ProductRepository;
+import com.sparta.myselectshop_security.repository.UserRepository;
 import io.jsonwebtoken.Claims;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

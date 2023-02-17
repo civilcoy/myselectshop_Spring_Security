@@ -1,4 +1,4 @@
-package com.sparta.myselectshop.entity;
+package com.sparta.myselectshop_security.entity;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

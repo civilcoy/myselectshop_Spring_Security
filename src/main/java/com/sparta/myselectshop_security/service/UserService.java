@@ -1,11 +1,11 @@
-package com.sparta.myselectshop.service;
+package com.sparta.myselectshop_security.service;
 
-import com.sparta.myselectshop.dto.LoginRequestDto;
-import com.sparta.myselectshop.dto.SignupRequestDto;
-import com.sparta.myselectshop.entity.User;
-import com.sparta.myselectshop.entity.UserRoleEnum;
-import com.sparta.myselectshop.jwt.JwtUtil;
-import com.sparta.myselectshop.repository.UserRepository;
+import com.sparta.myselectshop_security.dto.LoginRequestDto;
+import com.sparta.myselectshop_security.dto.SignupRequestDto;
+import com.sparta.myselectshop_security.entity.User;
+import com.sparta.myselectshop_security.entity.UserRoleEnum;
+import com.sparta.myselectshop_security.jwt.JwtUtil;
+import com.sparta.myselectshop_security.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
